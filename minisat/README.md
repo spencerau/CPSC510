@@ -94,28 +94,28 @@ Problem in conjunctive normal form with 8 variables and 16 clauses.
 
 #### lines are comments (ignored by the solver)
 
-`1 2 0`   : at least one must be true
-`-1 -2 0` : not both at once
-`3 4 0`   : at least one must be true
-`-3 -4 0` : not both at once
-`5 6 0`   : at least one must be true
-`-5 -6 0` : not both at once
-`7 8 0`   : at least one must be true
-`-7 -8 0` : not both at once
+`1 2 0`   : at least one must be true<br>
+`-1 -2 0` : not both at once<br>
+`3 4 0`   : at least one must be true<br>
+`-3 -4 0` : not both at once<br>
+`5 6 0`   : at least one must be true<br>
+`-5 -6 0` : not both at once<br>
+`7 8 0`   : at least one must be true<br>
+`-7 -8 0` : not both at once<br>
 
 #### Each row contains both values
 
-`1 3 0` : some cell in row 1 is "1"
-`2 4 0` : some cell in row 1 is "2"
-`5 7 0` : some cell in row 2 is "1"
-`6 8 0` : some cell in row 2 is "2"
+`1 3 0` : some cell in row 1 is "1"<br>
+`2 4 0` : some cell in row 1 is "2"<br>
+`5 7 0` : some cell in row 2 is "1"<br>
+`6 8 0` : some cell in row 2 is "2"<br>
 
 #### Each column contains both values
 
-`1 5 0` : some cell in column 1 is "1"
-`2 6 0` : some cell in column 1 is "2"
-`3 7 0` : some cell in column 2 is "1"
-`4 8 0` : some cell in column 2 is "2"
+`1 5 0` : some cell in column 1 is "1"<br>
+`2 6 0` : some cell in column 1 is "2"<br>
+`3 7 0` : some cell in column 2 is "1"<br>
+`4 8 0` : some cell in column 2 is "2"<br>
 
 ## Output
 

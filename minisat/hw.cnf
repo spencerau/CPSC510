@@ -1,0 +1,22 @@
+p cnf 4 14
+c convert intial to CNF (1: A, 2: B, 3: C, 4: D)
+1 3 0
+2 3 0
+1 -4 0
+2 -4 0
+c Out of 4 variables, exactly 2 must be true
+c divide it into 4 different cases:
+c 0 var are true
+1 2 3 4 0
+c 1 var is true
+-1 2 3 4 0
+1 -2 3 4 0
+1 2 -3 4 0
+1 2 3 -4 0
+c 3 var are true
+-1 -2 -3 0
+-1 -2 -4 0
+-1 -3 -4 0
+-2 -3 -4 0
+c 4 var are true
+-1 -2 -3 -4 0
